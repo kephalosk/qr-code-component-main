@@ -10,13 +10,18 @@
 #qrCard {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    margin: 230px 0;
+    margin: 230px 50px;
+    max-width: 352px;
     padding: 16px;
-    width: 320px;
+    width: 100%;
 }
 
 #textContainer {
     padding: 0 16px 16px 16px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +36,8 @@ body {
 img {
     border-radius: 10px;
     height: auto;
-    width: 320px;
+    max-width: 352px;
+    width: 100%;
 }
 
 h1 {
